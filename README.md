@@ -71,3 +71,6 @@ CPFs de Paraná e Santa Catarina:
 
 # Atenção
 ZERO é número e ele faz parte do cadastro de CPF de algumas pessoas e ele não pode ser omitido mesmo quando iniciado por Zero.
+
+# Curiosidade
+O primeiro CPF (Cadastro de Pessoas Físicas) foi emitido em 1972, para o economista João Paulo dos Reis Velloso, que foi o primeiro presidente do Instituto Brasileiro de Planejamento Tributário (IBPT). Seu número de CPF era o 0000.001.923-00.
