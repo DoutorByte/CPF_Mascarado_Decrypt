@@ -1,5 +1,5 @@
 # Descrição
-Este código gera todas as combinações possíveis de números de CPF a partir de um número parcialmente conhecido e dígitos adicionais. As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o nono dígito da cadeia de 9 dígitos iniciais.
+Este código gera todas as combinações possíveis de números de CPF a partir de um número parcialmente conhecido e dígitos verificadores( que podem ou não ser conhecidos também). As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o estado(UF) ou região de origem.
 
 
 # Detalhamento 
@@ -76,3 +76,9 @@ Este script gera toda a faixa de números de CPF disponíveis. Entretanto e obvi
 
 # Curiosidade
 O primeiro CPF (Cadastro de Pessoas Físicas) foi emitido em 1972, para o economista João Paulo dos Reis Velloso, que foi o primeiro presidente do Instituto Brasileiro de Planejamento Tributário (IBPT). Seu número de CPF era o 0000.001.923-00. Estranhamente este numero são segue a lógica atual para os numero de CPF.
+
+#TODO (filtrar mais ainda o resultado final  exibindo apenas os CPFs ativos e o nome da pessoa física)
+
+#SCRIPT PARA FINS DIDÁTICOS, USE COM RESPONSABILIDADE.
+
+
