@@ -50,9 +50,9 @@ def generate_combinations(number: str, additional_digits: str, control_digits: s
             combinations[description].append(temp_number)
     return combinations
 
-number = '**610933*' #informe aqui o cpf mascarado
-additional_digits = '0123456789' #estes são os digitos usando para preencher as lacunas, não altere!
+number = '**839016*' #informe aqui o cpf mascarado
 control_digits = '**' #se possuir o dígito verificador do cpf, informe aqui
+additional_digits = '0123456789' #estes são os digitos usando para preencher as lacunas, não altere!
 
 combinations = generate_combinations(number, additional_digits, control_digits)
 for description, combination_list in combinations.items():
