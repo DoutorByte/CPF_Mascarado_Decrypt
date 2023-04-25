@@ -68,3 +68,6 @@ CPFs de São Paulo:
 CPFs de Paraná e Santa Catarina:
 
 ['091402629-10']
+
+# Atenção
+ZERO é número e ele faz parte do cadastro de CPF de algumas pessoas e ele não pode ser omitido mesmo quando iniciado por Zero.
