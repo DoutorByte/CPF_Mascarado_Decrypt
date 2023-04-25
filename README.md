@@ -77,8 +77,9 @@ Este script gera toda a faixa de números de CPF disponíveis. Entretanto e obvi
 # Curiosidade
 O primeiro CPF (Cadastro de Pessoas Físicas) foi emitido em 1972, para o economista João Paulo dos Reis Velloso, que foi o primeiro presidente do Instituto Brasileiro de Planejamento Tributário (IBPT). Seu número de CPF era o 0000.001.923-00. Estranhamente este numero são segue a lógica atual para os numero de CPF.
 
-#TODO (filtrar mais ainda o resultado final  exibindo apenas os CPFs ativos e o nome da pessoa física)
+# TODO 
+filtrar mais ainda o resultado final  exibindo apenas os CPFs ativos e o nome da pessoa física
 
-#SCRIPT PARA FINS DIDÁTICOS, USE COM RESPONSABILIDADE.
+# SCRIPT PARA FINS DIDÁTICOS, USE COM RESPONSABILIDADE.
 
 
