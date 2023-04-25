@@ -12,16 +12,19 @@ Apenas altere abaixo, nos locais informados. Não informe caracteres de pontuaç
 exemplo:
 
 number = '***402628'
+
 control_digits = '**'
 
 ou
 
 number = '**1402628'
+
 control_digits = '10'
 
 ou
 
 number = '**140262*'
+
 control_digits = '10'
 
 # Exemplo de saída
