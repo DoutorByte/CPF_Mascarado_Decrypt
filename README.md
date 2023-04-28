@@ -11,62 +11,49 @@ Apenas altere abaixo, nos locais informados. Não informe caracteres de pontuaç
 
 exemplo:
 
-number = '***402628'
-
+number = '***402628'<br>
 control_digits = '**'
 
 ou
 
-number = '**1402628'
-
+number = '**1402628'<br>
 control_digits = '10'
 
 ou
 
-number = '**140262*'
-
+number = '**140262*'<br>
 control_digits = '10'
 
 # Exemplo de saída
 
-CPFs de Rio Grande do Sul:
-
+CPFs de Rio Grande do Sul:<br>
 ['151402620-10', '341402620-10']
 
-CPFs de Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul e Tocantins:
-
+CPFs de Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul e Tocantins:<br>
 ['881402621-10']
 
-CPFs de Amazonas, Pará, Roraima, Amapá, Acre e Rondônia:
-
+CPFs de Amazonas, Pará, Roraima, Amapá, Acre e Rondônia:<br>
 ['401402622-10']
 
-CPFs de Ceará, Maranhão e Piauí:
-
+CPFs de Ceará, Maranhão e Piauí:<br>
 ['031402623-10', '221402623-10']
 
-CPFs de Paraíba, Pernambuco, Alagoas e Rio Grande do Norte:
-
+CPFs de Paraíba, Pernambuco, Alagoas e Rio Grande do Norte:<br>
 ['761402624-10', '951402624-10']
 
-CPFs de Bahia e Sergipe:
-
+CPFs de Bahia e Sergipe:<br>
 ['391402625-10', '581402625-10']
 
-CPFs de Minas Gerais:
-
+CPFs de Minas Gerais:<br>
 ['101402626-10']
 
-CPFs de Rio de Janeiro e Espírito Santo:
-
+CPFs de Rio de Janeiro e Espírito Santo:<br>
 ['641402627-10', '831402627-10']
 
-CPFs de São Paulo:
-
+CPFs de São Paulo:<br>
 ['271402628-10', '461402628-10']
 
-CPFs de Paraná e Santa Catarina:
-
+CPFs de Paraná e Santa Catarina:<br>
 ['091402629-10']
 
 # Atenção
