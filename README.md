@@ -1,6 +1,12 @@
 # Descrição
-Este código gera todas as combinações possíveis de números de CPF a partir de um número parcialmente conhecido e dígitos verificadores( que podem ou não ser conhecidos também). As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o estado(UF) ou região de origem.
-
+Este código gera todas as combinações possíveis para números de CPF a partir de um número parcialmente conhecido e dígitos verificadores(que podem ou não ser conhecidos também). As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o estado(UF) ou região de origem.
+Exemplos:
+***95792037<br>
+***957920**<br>
+2569579203*<br>
+256957920**<br>
+***95792037<br>
+<br>
 
 # Detalhamento 
 Este código define duas funções principais: `is_valid_cpf` e `generate_combinations`. A função `is_valid_cpf` verifica se um número de CPF é válido usando a regra de validação dos dígitos verificadores do CPF. A função `generate_combinations` gera todas as combinações possíveis de números de CPF a partir de um número parcialmente conhecido (representado por um número de 9 dígitos com lacunas representadas por `*`) e dígitos adicionais. A função também aceita dígitos de controle conhecidos ou desconhecidos (representados por `*`) e gera combinações para preencher as lacunas nos dígitos de controle também. As combinações geradas são verificadas usando a função `is_valid_cpf` e apenas as combinações que são números de CPF válidos são incluídas na lista de combinações geradas. Por fim, a função separa as combinações geradas em listas diferentes de acordo com o nono dígito da cadeia de 9 dígitos iniciais e retorna um dicionário com as listas separadas e suas respectivas descrições.
