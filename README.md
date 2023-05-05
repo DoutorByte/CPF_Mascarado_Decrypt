@@ -1,11 +1,6 @@
 # Descrição
-Este código gera todas as combinações possíveis para números de CPF a partir de um número parcialmente conhecido e dígitos verificadores(que podem ou não ser conhecidos também). As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o estado(UF) ou região de origem.
-Exemplos:
-***95792037<br>
-***957920**<br>
-2569579203*<br>
-256957920**<br>
-***95792037<br>
+Este código gera todas as combinações possíveis para números de CPF a partir de um número parcialmente conhecido e dígitos verificadores(que podem ou não ser conhecidos também). As combinações geradas são verificadas para garantir que sejam números de CPF válidos e são separadas em listas diferentes de acordo com o estado(UF) ou região de origem.<br>
+
 <br>
 
 # Detalhamento 
