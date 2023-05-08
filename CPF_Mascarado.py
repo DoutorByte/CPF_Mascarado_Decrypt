@@ -35,6 +35,9 @@ def generate_combinations(number: str, additional_digits: str, control_digits: s
     combinations = {
         description: [] for description in descriptions.values()
     }
+    counts = {
+        description: 0 for description in descriptions.values()
+    }
     for comb in product(additional_digits, repeat=num_asterisks):
         temp_number = number
         temp_control_digits = control_digits
@@ -48,10 +51,15 @@ def generate_combinations(number: str, additional_digits: str, control_digits: s
             ninth_digit = temp_number[8]
             description = descriptions[ninth_digit]
             combinations[description].append(temp_number)
+            counts[description] += 1
+    print('\nTabela de contagem de CPFs por localidade:')
+    print('Localidade e Quantidade')
+    for description, count in counts.items():
+        print(f'{description} = {count} CPFs')
     return combinations
 
-number = '**83901**' #informe aqui o cpf mascarado
-control_digits = '43' #se possuir o dígito verificador do cpf, informe aqui
+number = '***79627*' #informe aqui o cpf mascarado (SEM OS DIGITOS DE VERIFICAÇÃO)
+control_digits = '4*' #se possuir o dígito verificador do cpf, informe aqui. caso contrario deixe ** ou ainda 3*
 additional_digits = '0123456789' #estes são os digitos usando para preencher as lacunas, não altere!
 
 combinations = generate_combinations(number, additional_digits, control_digits)
