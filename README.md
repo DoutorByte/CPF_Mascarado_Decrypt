@@ -68,7 +68,7 @@ O primeiro CPF (Cadastro de Pessoas Físicas) foi emitido em 1972, para o econom
 # TODO 
 ~filtrar mais ainda o resultado final  exibindo apenas os CPFs ativos e o nome da pessoa física~<br>
 Dispobilização pública cancelada devido ao risco de uso indevido. Será criado outro repositório privado com o codigo que obtem nome e situação cadastral dos CPFs.<br>
-Posso antecipar que a ferramenta consegue capturar nomes de cpfs gerados por este script mas depois de um determinado número de consultas em sequencia, o script é barrado pelo cloudflare. Estou tentando identificar depois de quanto tempo a consulta pode ser retomada para que o script entre em pasou ao detectar o limitador.
+Posso antecipar que a ferramenta consegue capturar nomes de cpfs gerados por este script mas depois de um determinado número de consultas em sequencia, o script é barrado pelo cloudflare. Estou tentando identificar depois de quanto tempo a consulta pode ser retomada para que o script entre em pausa ao detectar o limitador e retome a atidade após o cloudflare não barrar mais.
 
 # SCRIPT PARA FINS DIDÁTICOS, USE COM RESPONSABILIDADE.
 
